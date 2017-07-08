@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>饭</key>
+	<string>我还没吃饭,你要请客嘛?</string>
+	<key>睡</key>
+	<string>还早啊,我们再聊会?</string>
+</dict>
+</plist>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="mineContentView" id="gTV-IL-0wX" customClass="ZFBMineContentView" customModule="YWAlipay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="192" height="93"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="192" height="93"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="balance" translatesAutoresizingMaskIntoConstraints="NO" id="PDg-xn-odk">
+                        <rect key="frame" x="20" y="36" width="21" height="21"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i90-hl-2cc">
+                        <rect key="frame" x="55" y="51" width="33" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcZ-4z-BBH">
+                        <rect key="frame" x="55" y="24" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="PDg-xn-odk" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="1Na-ky-71x"/>
+                <constraint firstItem="kcZ-4z-BBH" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-12" id="5d3-k8-nbL"/>
+                <constraint firstItem="kcZ-4z-BBH" firstAttribute="leading" secondItem="PDg-xn-odk" secondAttribute="trailing" constant="14" id="Udf-hG-C1C"/>
+                <constraint firstItem="i90-hl-2cc" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="12" id="gcf-mI-oQu"/>
+                <constraint firstItem="PDg-xn-odk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="kob-LK-PrA"/>
+                <constraint firstItem="i90-hl-2cc" firstAttribute="leading" secondItem="kcZ-4z-BBH" secondAttribute="leading" id="qDM-yG-oNB"/>
+            </constraints>
+            <size key="customSize" width="192" height="93"/>
+            <connections>
+                <outlet property="forContent" destination="i90-hl-2cc" id="3iE-Bi-hx4"/>
+                <outlet property="forImage" destination="PDg-xn-odk" id="v1q-kt-zOv"/>
+                <outlet property="forTitle" destination="kcZ-4z-BBH" id="kuP-Ls-s4X"/>
+            </connections>
+            <point key="canvasLocation" x="-95" y="27.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="balance" width="21" height="21"/>
+    </resources>
+</document>

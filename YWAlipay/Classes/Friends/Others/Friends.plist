@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>APC_message_icon</string>
+		<key>time</key>
+		<string>三分钟前</string>
+		<key>title</key>
+		<string>消息中心</string>
+		<key>subTitle</key>
+		<string>蚂蚁会员欧洲杯 猜冠军赢百万现金</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>APC_service_icon</string>
+		<key>time</key>
+		<string>昨天</string>
+		<key>title</key>
+		<string>服务窗</string>
+		<key>subTitle</key>
+		<string>付费电视订购 立享998</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>friend_head_01</string>
+		<key>time</key>
+		<string>星期一</string>
+		<key>title</key>
+		<string>超哥</string>
+		<key>subTitle</key>
+		<string>[转账]向你转账49721.00元</string>
+	</dict>
+</array>
+</plist>

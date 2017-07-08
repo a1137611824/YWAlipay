@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="mineHeadView" id="IT7-1b-Qf3" customClass="ZFBMineHeadView" customModule="YWAlipay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="388" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="388" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user01_icon" translatesAutoresizingMaskIntoConstraints="NO" id="IJT-YD-IBi">
+                        <rect key="frame" x="20" y="10" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="BTV-bG-sZZ"/>
+                            <constraint firstAttribute="height" constant="80" id="dGv-Uj-0wI"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="友文友文" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omZ-kb-B2M">
+                        <rect key="frame" x="120" y="10" width="70" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="119.29.107.118" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVU-Xb-ZZJ">
+                        <rect key="frame" x="120" y="41" width="91" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n65-pe-lfx">
+                        <rect key="frame" x="120" y="69" width="84" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title=" 相册" image="album">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNX-T5-ivN">
+                        <rect key="frame" x="204" y="69" width="84" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title=" 收藏" image="favorite">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9b-pU-MEe">
+                        <rect key="frame" x="288" y="69" width="84" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title=" 会员中心" image="vip1">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xNX-T5-ivN" firstAttribute="bottom" secondItem="n65-pe-lfx" secondAttribute="bottom" id="2SH-TB-a9k"/>
+                <constraint firstItem="IJT-YD-IBi" firstAttribute="centerY" secondItem="IT7-1b-Qf3" secondAttribute="centerY" id="3x9-A1-3Vi"/>
+                <constraint firstItem="omZ-kb-B2M" firstAttribute="leading" secondItem="IJT-YD-IBi" secondAttribute="trailing" constant="20" id="6AY-Fd-RzV"/>
+                <constraint firstItem="omZ-kb-B2M" firstAttribute="top" secondItem="IJT-YD-IBi" secondAttribute="top" id="A1r-x3-sry"/>
+                <constraint firstItem="b9b-pU-MEe" firstAttribute="leading" secondItem="xNX-T5-ivN" secondAttribute="trailing" id="DN0-TH-Ei6"/>
+                <constraint firstItem="IJT-YD-IBi" firstAttribute="leading" secondItem="IT7-1b-Qf3" secondAttribute="leading" constant="20" id="E6L-nA-ldh"/>
+                <constraint firstItem="xNX-T5-ivN" firstAttribute="width" secondItem="n65-pe-lfx" secondAttribute="width" id="Eoo-IE-FhJ"/>
+                <constraint firstItem="BVU-Xb-ZZJ" firstAttribute="leading" secondItem="omZ-kb-B2M" secondAttribute="leading" id="FRn-Y2-VAy"/>
+                <constraint firstItem="n65-pe-lfx" firstAttribute="bottom" secondItem="IJT-YD-IBi" secondAttribute="bottom" id="M8S-rF-K9r"/>
+                <constraint firstAttribute="trailing" secondItem="b9b-pU-MEe" secondAttribute="trailing" constant="16" id="OMY-nY-7mB"/>
+                <constraint firstItem="xNX-T5-ivN" firstAttribute="leading" secondItem="n65-pe-lfx" secondAttribute="trailing" id="Q7S-SM-MzO"/>
+                <constraint firstItem="BVU-Xb-ZZJ" firstAttribute="centerY" secondItem="IT7-1b-Qf3" secondAttribute="centerY" id="YLZ-e0-enK"/>
+                <constraint firstItem="b9b-pU-MEe" firstAttribute="bottom" secondItem="n65-pe-lfx" secondAttribute="bottom" id="in8-FI-NYw"/>
+                <constraint firstItem="n65-pe-lfx" firstAttribute="leading" secondItem="omZ-kb-B2M" secondAttribute="leading" id="kXe-xw-RLq"/>
+                <constraint firstItem="b9b-pU-MEe" firstAttribute="width" secondItem="n65-pe-lfx" secondAttribute="width" id="rLZ-DX-e6g"/>
+            </constraints>
+            <size key="customSize" width="398" height="113"/>
+            <point key="canvasLocation" x="75" y="191"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="album" width="21" height="21"/>
+        <image name="favorite" width="21" height="21"/>
+        <image name="user01_icon" width="200" height="200"/>
+        <image name="vip1" width="21" height="21"/>
+    </resources>
+</document>

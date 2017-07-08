@@ -1,0 +1,1208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20B60C51EECD88E00528604 /* YWBussinessClassifyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20B60C41EECD88E00528604 /* YWBussinessClassifyCell.swift */; };
+		F217FF351EF7CB5B000DA0C8 /* YWFriendChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217FF2C1EF7CB5B000DA0C8 /* YWFriendChatController.swift */; };
+		F217FF361EF7CB5B000DA0C8 /* YWFriendChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217FF2E1EF7CB5B000DA0C8 /* YWFriendChatModel.swift */; };
+		F217FF371EF7CB5B000DA0C8 /* AutoReply.plist in Resources */ = {isa = PBXBuildFile; fileRef = F217FF301EF7CB5B000DA0C8 /* AutoReply.plist */; };
+		F217FF381EF7CB5B000DA0C8 /* Chats.plist in Resources */ = {isa = PBXBuildFile; fileRef = F217FF311EF7CB5B000DA0C8 /* Chats.plist */; };
+		F217FF391EF7CB5B000DA0C8 /* YWFriendChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F217FF331EF7CB5B000DA0C8 /* YWFriendChat.storyboard */; };
+		F217FF3A1EF7CB5B000DA0C8 /* YWFriendChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F217FF341EF7CB5B000DA0C8 /* YWFriendChatCell.swift */; };
+		F24F39551F0F105C003755FE /* ZFBMineBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24F39531F0F105C003755FE /* ZFBMineBalanceView.swift */; };
+		F24F39561F0F105C003755FE /* ZFBMineBalanceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F24F39541F0F105C003755FE /* ZFBMineBalanceView.xib */; };
+		F24F39591F0F1073003755FE /* ZFBMineContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24F39571F0F1073003755FE /* ZFBMineContentView.swift */; };
+		F24F395A1F0F1073003755FE /* ZFBMineContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F24F39581F0F1073003755FE /* ZFBMineContentView.xib */; };
+		F2B433511EEC287A00D3A476 /* YWBussinessClassify.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2B433501EEC287A00D3A476 /* YWBussinessClassify.plist */; };
+		F2BEB64A1EEC2B040031BC89 /* YWBusinessClassifyFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB6491EEC2B040031BC89 /* YWBusinessClassifyFlowLayout.swift */; };
+		F2BEB64C1EEC2DCE0031BC89 /* YWBussinessClassifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB64B1EEC2DCE0031BC89 /* YWBussinessClassifyModel.swift */; };
+		F2C97BC41EF2767D00B37F42 /* YWBusinessClassifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C97BC31EF2767D00B37F42 /* YWBusinessClassifyView.swift */; };
+		F2D068FF1F0FD5D000D6B24D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2D068E51F0FD5CF00D6B24D /* Info.plist */; };
+		F2D069001F0FD5D000D6B24D /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D068E71F0FD5CF00D6B24D /* MASCompositeConstraint.m */; };
+		F2D069011F0FD5D000D6B24D /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D068EA1F0FD5CF00D6B24D /* MASConstraint.m */; };
+		F2D069021F0FD5D000D6B24D /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D068EC1F0FD5CF00D6B24D /* MASConstraintMaker.m */; };
+		F2D069031F0FD5D000D6B24D /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D068EE1F0FD5CF00D6B24D /* MASLayoutConstraint.m */; };
+		F2D069041F0FD5D000D6B24D /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D068F21F0FD5CF00D6B24D /* MASViewAttribute.m */; };
+		F2D069051F0FD5D000D6B24D /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D068F41F0FD5CF00D6B24D /* MASViewConstraint.m */; };
+		F2D069061F0FD5D000D6B24D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D068F61F0FD5CF00D6B24D /* NSArray+MASAdditions.m */; };
+		F2D069071F0FD5D000D6B24D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D068F91F0FD5D000D6B24D /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		F2D069081F0FD5D000D6B24D /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D068FB1F0FD5D000D6B24D /* View+MASAdditions.m */; };
+		F2D069091F0FD5D000D6B24D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D068FE1F0FD5D000D6B24D /* ViewController+MASAdditions.m */; };
+		F2D069211F0FD60F00D6B24D /* YWHomeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0690C1F0FD60F00D6B24D /* YWHomeListController.swift */; };
+		F2D069221F0FD60F00D6B24D /* ZFBCycleFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D069101F0FD60F00D6B24D /* ZFBCycleFlowLayout.m */; };
+		F2D069231F0FD60F00D6B24D /* ZFBCycleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D069131F0FD60F00D6B24D /* ZFBCycleCell.m */; };
+		F2D069241F0FD60F00D6B24D /* ZFBCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D069141F0FD60F00D6B24D /* ZFBCycleCell.xib */; };
+		F2D069251F0FD60F00D6B24D /* ZFBCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D069161F0FD60F00D6B24D /* ZFBCycleView.m */; };
+		F2D069261F0FD60F00D6B24D /* YWHomeListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D069181F0FD60F00D6B24D /* YWHomeListModel.swift */; };
+		F2D069271F0FD60F00D6B24D /* homeAllFunctions.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2D0691A1F0FD60F00D6B24D /* homeAllFunctions.plist */; };
+		F2D069281F0FD60F00D6B24D /* YWHomeListFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0691B1F0FD60F00D6B24D /* YWHomeListFlowLayout.swift */; };
+		F2D069291F0FD60F00D6B24D /* YWHomeListADCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0691D1F0FD60F00D6B24D /* YWHomeListADCell.swift */; };
+		F2D0692A1F0FD60F00D6B24D /* YWHomeListADCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D0691E1F0FD60F00D6B24D /* YWHomeListADCell.xib */; };
+		F2D0692B1F0FD60F00D6B24D /* YWHomeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D0691F1F0FD60F00D6B24D /* YWHomeListCell.swift */; };
+		F2D0692C1F0FD60F00D6B24D /* YWHomeListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D069201F0FD60F00D6B24D /* YWHomeListCell.xib */; };
+		F2D559B11EF376A100867945 /* Friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2D559B01EF376A100867945 /* Friends.plist */; };
+		F2D559B31EF3797F00867945 /* ZFBFriendsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D559B21EF3797F00867945 /* ZFBFriendsModel.swift */; };
+		F2D559B61EF37A4800867945 /* ZFBFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D559B41EF37A4800867945 /* ZFBFriendsCell.swift */; };
+		F2D559B71EF37A4800867945 /* ZFBFriendsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D559B51EF37A4800867945 /* ZFBFriendsCell.xib */; };
+		F2D559C31EF3814000867945 /* YWLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D559BA1EF3814000867945 /* YWLifeViewController.swift */; };
+		F2D559C41EF3814000867945 /* YWLifeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D559BC1EF3814000867945 /* YWLifeModel.swift */; };
+		F2D559C61EF3814000867945 /* YWLifeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D559C01EF3814000867945 /* YWLifeCell.swift */; };
+		F2D559C71EF3814000867945 /* YWLifeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D559C11EF3814000867945 /* YWLifeCell.xib */; };
+		F2D559C81EF3814000867945 /* YWLifeHeaderVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D559C21EF3814000867945 /* YWLifeHeaderVeiw.swift */; };
+		F2D559CC1EF39E4F00867945 /* moment.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2D559CB1EF39E4F00867945 /* moment.plist */; };
+		F2D5A0A71F0E76F7006ADA89 /* MineOption.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2D5A0A61F0E76F7006ADA89 /* MineOption.plist */; };
+		F2D5A0A91F0E7738006ADA89 /* ZFBMineOptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5A0A81F0E7738006ADA89 /* ZFBMineOptionModel.swift */; };
+		F2D5A0AC1F0E7B03006ADA89 /* ZFBMineHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5A0AA1F0E7B03006ADA89 /* ZFBMineHeadView.swift */; };
+		F2D5A0AD1F0E7B03006ADA89 /* ZFBMineHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D5A0AB1F0E7B03006ADA89 /* ZFBMineHeadView.xib */; };
+		F2D5A0B71F0E822C006ADA89 /* ZFBMineFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5A0B61F0E822C006ADA89 /* ZFBMineFlowLayout.swift */; };
+		F2E1A2DB1EE7EEB5008E42F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A2DA1EE7EEB5008E42F1 /* AppDelegate.swift */; };
+		F2E1A2E51EE7EEB5008E42F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E1A2E31EE7EEB5008E42F1 /* LaunchScreen.storyboard */; };
+		F2E1A3371EE7F012008E42F1 /* ZFBBusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A2EF1EE7F012008E42F1 /* ZFBBusinessViewController.swift */; };
+		F2E1A3381EE7F012008E42F1 /* ZFBBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A2F11EE7F012008E42F1 /* ZFBBusiness.swift */; };
+		F2E1A3391EE7F012008E42F1 /* business.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2E1A2F31EE7F012008E42F1 /* business.plist */; };
+		F2E1A33A1EE7F012008E42F1 /* ZFBBusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A2F51EE7F012008E42F1 /* ZFBBusinessCell.swift */; };
+		F2E1A33B1EE7F012008E42F1 /* ZFBBusinessViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E1A2F61EE7F012008E42F1 /* ZFBBusinessViewController.storyboard */; };
+		F2E1A33C1EE7F012008E42F1 /* ZFBLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A2F71EE7F012008E42F1 /* ZFBLevelView.swift */; };
+		F2E1A33D1EE7F012008E42F1 /* ZFBPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A2F81EE7F012008E42F1 /* ZFBPictureView.swift */; };
+		F2E1A33E1EE7F012008E42F1 /* ZFBPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E1A2F91EE7F012008E42F1 /* ZFBPictureView.xib */; };
+		F2E1A33F1EE7F012008E42F1 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A2FC1EE7F012008E42F1 /* NSAttributedString+Extension.swift */; };
+		F2E1A3401EE7F012008E42F1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A2FD1EE7F012008E42F1 /* UIColor+Extension.swift */; };
+		F2E1A3411EE7F012008E42F1 /* ZFBFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A3051EE7F012008E42F1 /* ZFBFriendsViewController.swift */; };
+		F2E1A3421EE7F012008E42F1 /* forCodeScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A30B1EE7F012008E42F1 /* forCodeScan.swift */; };
+		F2E1A3431EE7F012008E42F1 /* ZFBCodeScanningPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A30C1EE7F012008E42F1 /* ZFBCodeScanningPage.swift */; };
+		F2E1A3441EE7F012008E42F1 /* ZFBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A30D1EE7F012008E42F1 /* ZFBHomeViewController.swift */; };
+		F2E1A3451EE7F012008E42F1 /* ZFBTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A3111EE7F012008E42F1 /* ZFBTopView.swift */; };
+		F2E1A3461EE7F012008E42F1 /* ZFBMainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A3141EE7F012008E42F1 /* ZFBMainNavigationController.swift */; };
+		F2E1A3471EE7F012008E42F1 /* ZFBMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A3151EE7F012008E42F1 /* ZFBMainTabBarController.swift */; };
+		F2E1A3481EE7F012008E42F1 /* ZFBMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A31B1EE7F012008E42F1 /* ZFBMineViewController.swift */; };
+		F2E1A3491EE7F012008E42F1 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A3201EE7F012008E42F1 /* Define.swift */; };
+		F2E1A34A1EE7F012008E42F1 /* SGQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A3241EE7F012008E42F1 /* SGQRCodeTool.m */; };
+		F2E1A34B1EE7F012008E42F1 /* sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = F2E1A3251EE7F012008E42F1 /* sound.caf */; };
+		F2E1A34C1EE7F012008E42F1 /* SGScanningQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A3281EE7F012008E42F1 /* SGScanningQRCodeView.m */; };
+		F2E1A34D1EE7F012008E42F1 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A32A1EE7F012008E42F1 /* Constraint.swift */; };
+		F2E1A34E1EE7F012008E42F1 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A32B1EE7F012008E42F1 /* ConstraintAttributes.swift */; };
+		F2E1A34F1EE7F012008E42F1 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A32C1EE7F012008E42F1 /* ConstraintDescription.swift */; };
+		F2E1A3501EE7F012008E42F1 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A32D1EE7F012008E42F1 /* ConstraintItem.swift */; };
+		F2E1A3511EE7F012008E42F1 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A32E1EE7F012008E42F1 /* ConstraintMaker.swift */; };
+		F2E1A3521EE7F012008E42F1 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A32F1EE7F012008E42F1 /* ConstraintRelation.swift */; };
+		F2E1A3531EE7F012008E42F1 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A3301EE7F012008E42F1 /* Debugging.swift */; };
+		F2E1A3541EE7F012008E42F1 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A3311EE7F012008E42F1 /* EdgeInsets.swift */; };
+		F2E1A3551EE7F012008E42F1 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A3321EE7F012008E42F1 /* LayoutConstraint.swift */; };
+		F2E1A3561EE7F012008E42F1 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A3341EE7F012008E42F1 /* SnapKit.swift */; };
+		F2E1A3571EE7F012008E42F1 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A3351EE7F012008E42F1 /* View+SnapKit.swift */; };
+		F2E1A3581EE7F012008E42F1 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1A3361EE7F012008E42F1 /* ViewController+SnapKit.swift */; };
+		F2E1A37C1EE7F846008E42F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E1A37B1EE7F846008E42F1 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F20B60C41EECD88E00528604 /* YWBussinessClassifyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWBussinessClassifyCell.swift; sourceTree = "<group>"; };
+		F217FF2C1EF7CB5B000DA0C8 /* YWFriendChatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWFriendChatController.swift; sourceTree = "<group>"; };
+		F217FF2E1EF7CB5B000DA0C8 /* YWFriendChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWFriendChatModel.swift; sourceTree = "<group>"; };
+		F217FF301EF7CB5B000DA0C8 /* AutoReply.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AutoReply.plist; sourceTree = "<group>"; };
+		F217FF311EF7CB5B000DA0C8 /* Chats.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Chats.plist; sourceTree = "<group>"; };
+		F217FF331EF7CB5B000DA0C8 /* YWFriendChat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YWFriendChat.storyboard; sourceTree = "<group>"; };
+		F217FF341EF7CB5B000DA0C8 /* YWFriendChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWFriendChatCell.swift; sourceTree = "<group>"; };
+		F24F39531F0F105C003755FE /* ZFBMineBalanceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBMineBalanceView.swift; sourceTree = "<group>"; };
+		F24F39541F0F105C003755FE /* ZFBMineBalanceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFBMineBalanceView.xib; sourceTree = "<group>"; };
+		F24F39571F0F1073003755FE /* ZFBMineContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBMineContentView.swift; sourceTree = "<group>"; };
+		F24F39581F0F1073003755FE /* ZFBMineContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFBMineContentView.xib; sourceTree = "<group>"; };
+		F2B433501EEC287A00D3A476 /* YWBussinessClassify.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YWBussinessClassify.plist; sourceTree = "<group>"; };
+		F2BEB6491EEC2B040031BC89 /* YWBusinessClassifyFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWBusinessClassifyFlowLayout.swift; sourceTree = "<group>"; };
+		F2BEB64B1EEC2DCE0031BC89 /* YWBussinessClassifyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWBussinessClassifyModel.swift; sourceTree = "<group>"; };
+		F2C97BC31EF2767D00B37F42 /* YWBusinessClassifyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWBusinessClassifyView.swift; sourceTree = "<group>"; };
+		F2D068E51F0FD5CF00D6B24D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D068E61F0FD5CF00D6B24D /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		F2D068E71F0FD5CF00D6B24D /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		F2D068E81F0FD5CF00D6B24D /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F2D068E91F0FD5CF00D6B24D /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		F2D068EA1F0FD5CF00D6B24D /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		F2D068EB1F0FD5CF00D6B24D /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		F2D068EC1F0FD5CF00D6B24D /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		F2D068ED1F0FD5CF00D6B24D /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F2D068EE1F0FD5CF00D6B24D /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		F2D068EF1F0FD5CF00D6B24D /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		F2D068F01F0FD5CF00D6B24D /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		F2D068F11F0FD5CF00D6B24D /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		F2D068F21F0FD5CF00D6B24D /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		F2D068F31F0FD5CF00D6B24D /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		F2D068F41F0FD5CF00D6B24D /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		F2D068F51F0FD5CF00D6B24D /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F2D068F61F0FD5CF00D6B24D /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		F2D068F71F0FD5CF00D6B24D /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F2D068F81F0FD5D000D6B24D /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		F2D068F91F0FD5D000D6B24D /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F2D068FA1F0FD5D000D6B24D /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		F2D068FB1F0FD5D000D6B24D /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		F2D068FC1F0FD5D000D6B24D /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F2D068FD1F0FD5D000D6B24D /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		F2D068FE1F0FD5D000D6B24D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		F2D0690C1F0FD60F00D6B24D /* YWHomeListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWHomeListController.swift; sourceTree = "<group>"; };
+		F2D0690F1F0FD60F00D6B24D /* ZFBCycleFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBCycleFlowLayout.h; sourceTree = "<group>"; };
+		F2D069101F0FD60F00D6B24D /* ZFBCycleFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBCycleFlowLayout.m; sourceTree = "<group>"; };
+		F2D069121F0FD60F00D6B24D /* ZFBCycleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBCycleCell.h; sourceTree = "<group>"; };
+		F2D069131F0FD60F00D6B24D /* ZFBCycleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBCycleCell.m; sourceTree = "<group>"; };
+		F2D069141F0FD60F00D6B24D /* ZFBCycleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFBCycleCell.xib; sourceTree = "<group>"; };
+		F2D069151F0FD60F00D6B24D /* ZFBCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBCycleView.h; sourceTree = "<group>"; };
+		F2D069161F0FD60F00D6B24D /* ZFBCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBCycleView.m; sourceTree = "<group>"; };
+		F2D069181F0FD60F00D6B24D /* YWHomeListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWHomeListModel.swift; sourceTree = "<group>"; };
+		F2D0691A1F0FD60F00D6B24D /* homeAllFunctions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = homeAllFunctions.plist; sourceTree = "<group>"; };
+		F2D0691B1F0FD60F00D6B24D /* YWHomeListFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWHomeListFlowLayout.swift; sourceTree = "<group>"; };
+		F2D0691D1F0FD60F00D6B24D /* YWHomeListADCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWHomeListADCell.swift; sourceTree = "<group>"; };
+		F2D0691E1F0FD60F00D6B24D /* YWHomeListADCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YWHomeListADCell.xib; sourceTree = "<group>"; };
+		F2D0691F1F0FD60F00D6B24D /* YWHomeListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWHomeListCell.swift; sourceTree = "<group>"; };
+		F2D069201F0FD60F00D6B24D /* YWHomeListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YWHomeListCell.xib; sourceTree = "<group>"; };
+		F2D559B01EF376A100867945 /* Friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Friends.plist; sourceTree = "<group>"; };
+		F2D559B21EF3797F00867945 /* ZFBFriendsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBFriendsModel.swift; sourceTree = "<group>"; };
+		F2D559B41EF37A4800867945 /* ZFBFriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBFriendsCell.swift; sourceTree = "<group>"; };
+		F2D559B51EF37A4800867945 /* ZFBFriendsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFBFriendsCell.xib; sourceTree = "<group>"; };
+		F2D559BA1EF3814000867945 /* YWLifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWLifeViewController.swift; sourceTree = "<group>"; };
+		F2D559BC1EF3814000867945 /* YWLifeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWLifeModel.swift; sourceTree = "<group>"; };
+		F2D559C01EF3814000867945 /* YWLifeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWLifeCell.swift; sourceTree = "<group>"; };
+		F2D559C11EF3814000867945 /* YWLifeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YWLifeCell.xib; sourceTree = "<group>"; };
+		F2D559C21EF3814000867945 /* YWLifeHeaderVeiw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWLifeHeaderVeiw.swift; sourceTree = "<group>"; };
+		F2D559CB1EF39E4F00867945 /* moment.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = moment.plist; sourceTree = "<group>"; };
+		F2D5A0A61F0E76F7006ADA89 /* MineOption.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MineOption.plist; sourceTree = "<group>"; };
+		F2D5A0A81F0E7738006ADA89 /* ZFBMineOptionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBMineOptionModel.swift; sourceTree = "<group>"; };
+		F2D5A0AA1F0E7B03006ADA89 /* ZFBMineHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBMineHeadView.swift; sourceTree = "<group>"; };
+		F2D5A0AB1F0E7B03006ADA89 /* ZFBMineHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFBMineHeadView.xib; sourceTree = "<group>"; };
+		F2D5A0B61F0E822C006ADA89 /* ZFBMineFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBMineFlowLayout.swift; sourceTree = "<group>"; };
+		F2E1A2D71EE7EEB5008E42F1 /* YWAlipay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWAlipay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E1A2DA1EE7EEB5008E42F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2E1A2E41EE7EEB5008E42F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2E1A2E61EE7EEB5008E42F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		F2E1A2EF1EE7F012008E42F1 /* ZFBBusinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBBusinessViewController.swift; sourceTree = "<group>"; };
+		F2E1A2F11EE7F012008E42F1 /* ZFBBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBBusiness.swift; sourceTree = "<group>"; };
+		F2E1A2F31EE7F012008E42F1 /* business.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = business.plist; sourceTree = "<group>"; };
+		F2E1A2F51EE7F012008E42F1 /* ZFBBusinessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBBusinessCell.swift; sourceTree = "<group>"; };
+		F2E1A2F61EE7F012008E42F1 /* ZFBBusinessViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ZFBBusinessViewController.storyboard; sourceTree = "<group>"; };
+		F2E1A2F71EE7F012008E42F1 /* ZFBLevelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBLevelView.swift; sourceTree = "<group>"; };
+		F2E1A2F81EE7F012008E42F1 /* ZFBPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBPictureView.swift; sourceTree = "<group>"; };
+		F2E1A2F91EE7F012008E42F1 /* ZFBPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFBPictureView.xib; sourceTree = "<group>"; };
+		F2E1A2FB1EE7F012008E42F1 /* AlipayProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AlipayProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		F2E1A2FC1EE7F012008E42F1 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		F2E1A2FD1EE7F012008E42F1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		F2E1A3051EE7F012008E42F1 /* ZFBFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBFriendsViewController.swift; sourceTree = "<group>"; };
+		F2E1A30B1EE7F012008E42F1 /* forCodeScan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forCodeScan.swift; sourceTree = "<group>"; };
+		F2E1A30C1EE7F012008E42F1 /* ZFBCodeScanningPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBCodeScanningPage.swift; sourceTree = "<group>"; };
+		F2E1A30D1EE7F012008E42F1 /* ZFBHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBHomeViewController.swift; sourceTree = "<group>"; };
+		F2E1A3111EE7F012008E42F1 /* ZFBTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBTopView.swift; sourceTree = "<group>"; };
+		F2E1A3141EE7F012008E42F1 /* ZFBMainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBMainNavigationController.swift; sourceTree = "<group>"; };
+		F2E1A3151EE7F012008E42F1 /* ZFBMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBMainTabBarController.swift; sourceTree = "<group>"; };
+		F2E1A31B1EE7F012008E42F1 /* ZFBMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFBMineViewController.swift; sourceTree = "<group>"; };
+		F2E1A3201EE7F012008E42F1 /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		F2E1A3231EE7F012008E42F1 /* SGQRCodeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeTool.h; sourceTree = "<group>"; };
+		F2E1A3241EE7F012008E42F1 /* SGQRCodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeTool.m; sourceTree = "<group>"; };
+		F2E1A3251EE7F012008E42F1 /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
+		F2E1A3271EE7F012008E42F1 /* SGScanningQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGScanningQRCodeView.h; sourceTree = "<group>"; };
+		F2E1A3281EE7F012008E42F1 /* SGScanningQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGScanningQRCodeView.m; sourceTree = "<group>"; };
+		F2E1A32A1EE7F012008E42F1 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		F2E1A32B1EE7F012008E42F1 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		F2E1A32C1EE7F012008E42F1 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		F2E1A32D1EE7F012008E42F1 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		F2E1A32E1EE7F012008E42F1 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		F2E1A32F1EE7F012008E42F1 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		F2E1A3301EE7F012008E42F1 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		F2E1A3311EE7F012008E42F1 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		F2E1A3321EE7F012008E42F1 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		F2E1A3331EE7F012008E42F1 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		F2E1A3341EE7F012008E42F1 /* SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
+		F2E1A3351EE7F012008E42F1 /* View+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+SnapKit.swift"; sourceTree = "<group>"; };
+		F2E1A3361EE7F012008E42F1 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		F2E1A37B1EE7F846008E42F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E1A2D41EE7EEB5008E42F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F217FF2A1EF7CB5B000DA0C8 /* YWFriendChat(好友聊天) */ = {
+			isa = PBXGroup;
+			children = (
+				F217FF2B1EF7CB5B000DA0C8 /* Controller */,
+				F217FF2D1EF7CB5B000DA0C8 /* Model */,
+				F217FF2F1EF7CB5B000DA0C8 /* Others */,
+				F217FF321EF7CB5B000DA0C8 /* View */,
+			);
+			name = "YWFriendChat(好友聊天)";
+			path = YWFriendChat;
+			sourceTree = "<group>";
+		};
+		F217FF2B1EF7CB5B000DA0C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F217FF2C1EF7CB5B000DA0C8 /* YWFriendChatController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F217FF2D1EF7CB5B000DA0C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F217FF2E1EF7CB5B000DA0C8 /* YWFriendChatModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F217FF2F1EF7CB5B000DA0C8 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F217FF301EF7CB5B000DA0C8 /* AutoReply.plist */,
+				F217FF311EF7CB5B000DA0C8 /* Chats.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F217FF321EF7CB5B000DA0C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F217FF331EF7CB5B000DA0C8 /* YWFriendChat.storyboard */,
+				F217FF341EF7CB5B000DA0C8 /* YWFriendChatCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2B4334C1EEC283A00D3A476 /* BusinessClassify(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				F2B4334D1EEC283A00D3A476 /* Model */,
+				F2B4334E1EEC283A00D3A476 /* Other */,
+				F2B4334F1EEC283A00D3A476 /* View */,
+			);
+			name = "BusinessClassify(分类)";
+			path = BusinessClassify;
+			sourceTree = "<group>";
+		};
+		F2B4334D1EEC283A00D3A476 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2BEB64B1EEC2DCE0031BC89 /* YWBussinessClassifyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2B4334E1EEC283A00D3A476 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F2B433501EEC287A00D3A476 /* YWBussinessClassify.plist */,
+				F2BEB6491EEC2B040031BC89 /* YWBusinessClassifyFlowLayout.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F2B4334F1EEC283A00D3A476 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F20B60C41EECD88E00528604 /* YWBussinessClassifyCell.swift */,
+				F2C97BC31EF2767D00B37F42 /* YWBusinessClassifyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2D068E41F0FD5CF00D6B24D /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F2D068E51F0FD5CF00D6B24D /* Info.plist */,
+				F2D068E61F0FD5CF00D6B24D /* MASCompositeConstraint.h */,
+				F2D068E71F0FD5CF00D6B24D /* MASCompositeConstraint.m */,
+				F2D068E81F0FD5CF00D6B24D /* MASConstraint+Private.h */,
+				F2D068E91F0FD5CF00D6B24D /* MASConstraint.h */,
+				F2D068EA1F0FD5CF00D6B24D /* MASConstraint.m */,
+				F2D068EB1F0FD5CF00D6B24D /* MASConstraintMaker.h */,
+				F2D068EC1F0FD5CF00D6B24D /* MASConstraintMaker.m */,
+				F2D068ED1F0FD5CF00D6B24D /* MASLayoutConstraint.h */,
+				F2D068EE1F0FD5CF00D6B24D /* MASLayoutConstraint.m */,
+				F2D068EF1F0FD5CF00D6B24D /* Masonry.h */,
+				F2D068F01F0FD5CF00D6B24D /* MASUtilities.h */,
+				F2D068F11F0FD5CF00D6B24D /* MASViewAttribute.h */,
+				F2D068F21F0FD5CF00D6B24D /* MASViewAttribute.m */,
+				F2D068F31F0FD5CF00D6B24D /* MASViewConstraint.h */,
+				F2D068F41F0FD5CF00D6B24D /* MASViewConstraint.m */,
+				F2D068F51F0FD5CF00D6B24D /* NSArray+MASAdditions.h */,
+				F2D068F61F0FD5CF00D6B24D /* NSArray+MASAdditions.m */,
+				F2D068F71F0FD5CF00D6B24D /* NSArray+MASShorthandAdditions.h */,
+				F2D068F81F0FD5D000D6B24D /* NSLayoutConstraint+MASDebugAdditions.h */,
+				F2D068F91F0FD5D000D6B24D /* NSLayoutConstraint+MASDebugAdditions.m */,
+				F2D068FA1F0FD5D000D6B24D /* View+MASAdditions.h */,
+				F2D068FB1F0FD5D000D6B24D /* View+MASAdditions.m */,
+				F2D068FC1F0FD5D000D6B24D /* View+MASShorthandAdditions.h */,
+				F2D068FD1F0FD5D000D6B24D /* ViewController+MASAdditions.h */,
+				F2D068FE1F0FD5D000D6B24D /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		F2D0690A1F0FD60F00D6B24D /* HomeList(功能列表区) */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0690B1F0FD60F00D6B24D /* Controller */,
+				F2D0690D1F0FD60F00D6B24D /* Cycle */,
+				F2D069171F0FD60F00D6B24D /* Model */,
+				F2D069191F0FD60F00D6B24D /* Others */,
+				F2D0691C1F0FD60F00D6B24D /* View */,
+			);
+			name = "HomeList(功能列表区)";
+			path = HomeList;
+			sourceTree = "<group>";
+		};
+		F2D0690B1F0FD60F00D6B24D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0690C1F0FD60F00D6B24D /* YWHomeListController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2D0690D1F0FD60F00D6B24D /* Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0690E1F0FD60F00D6B24D /* Other */,
+				F2D069111F0FD60F00D6B24D /* View */,
+			);
+			path = Cycle;
+			sourceTree = "<group>";
+		};
+		F2D0690E1F0FD60F00D6B24D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0690F1F0FD60F00D6B24D /* ZFBCycleFlowLayout.h */,
+				F2D069101F0FD60F00D6B24D /* ZFBCycleFlowLayout.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F2D069111F0FD60F00D6B24D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2D069121F0FD60F00D6B24D /* ZFBCycleCell.h */,
+				F2D069131F0FD60F00D6B24D /* ZFBCycleCell.m */,
+				F2D069141F0FD60F00D6B24D /* ZFBCycleCell.xib */,
+				F2D069151F0FD60F00D6B24D /* ZFBCycleView.h */,
+				F2D069161F0FD60F00D6B24D /* ZFBCycleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2D069171F0FD60F00D6B24D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2D069181F0FD60F00D6B24D /* YWHomeListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2D069191F0FD60F00D6B24D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0691A1F0FD60F00D6B24D /* homeAllFunctions.plist */,
+				F2D0691B1F0FD60F00D6B24D /* YWHomeListFlowLayout.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2D0691C1F0FD60F00D6B24D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0691D1F0FD60F00D6B24D /* YWHomeListADCell.swift */,
+				F2D0691E1F0FD60F00D6B24D /* YWHomeListADCell.xib */,
+				F2D0691F1F0FD60F00D6B24D /* YWHomeListCell.swift */,
+				F2D069201F0FD60F00D6B24D /* YWHomeListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2D559B81EF3814000867945 /* YWFriend(朋友圈) */ = {
+			isa = PBXGroup;
+			children = (
+				F2D559B91EF3814000867945 /* Controller */,
+				F2D559BB1EF3814000867945 /* Model */,
+				F2D559BD1EF3814000867945 /* Others */,
+				F2D559BF1EF3814000867945 /* View */,
+			);
+			name = "YWFriend(朋友圈)";
+			path = YWFriend;
+			sourceTree = "<group>";
+		};
+		F2D559B91EF3814000867945 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2D559BA1EF3814000867945 /* YWLifeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2D559BB1EF3814000867945 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2D559BC1EF3814000867945 /* YWLifeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2D559BD1EF3814000867945 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F2D559CB1EF39E4F00867945 /* moment.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2D559BF1EF3814000867945 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2D559C01EF3814000867945 /* YWLifeCell.swift */,
+				F2D559C11EF3814000867945 /* YWLifeCell.xib */,
+				F2D559C21EF3814000867945 /* YWLifeHeaderVeiw.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2E1A2CE1EE7EEB5008E42F1 = {
+			isa = PBXGroup;
+			children = (
+				F2E1A2D91EE7EEB5008E42F1 /* YWAlipay */,
+				F2E1A2D81EE7EEB5008E42F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E1A2D81EE7EEB5008E42F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A2D71EE7EEB5008E42F1 /* YWAlipay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E1A2D91EE7EEB5008E42F1 /* YWAlipay */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A2DA1EE7EEB5008E42F1 /* AppDelegate.swift */,
+				F2E1A2EC1EE7F012008E42F1 /* Classes */,
+			);
+			path = YWAlipay;
+			sourceTree = "<group>";
+		};
+		F2E1A2EC1EE7F012008E42F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A3121EE7F012008E42F1 /* Main(公共) */,
+				F2E1A3091EE7F012008E42F1 /* Home(首页) */,
+				F2E1A3031EE7F012008E42F1 /* Friends(好友) */,
+				F2E1A2ED1EE7F012008E42F1 /* business(口碑) */,
+				F2E1A3191EE7F012008E42F1 /* Mine(我的) */,
+				F2E1A2FA1EE7F012008E42F1 /* Common */,
+				F2E1A2FE1EE7F012008E42F1 /* Copy */,
+				F2E1A31F1EE7F012008E42F1 /* Others */,
+				F2E1A3211EE7F012008E42F1 /* Utility */,
+				F2E1A3591EE7F0FC008E42F1 /* Resources */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F2E1A2ED1EE7F012008E42F1 /* business(口碑) */ = {
+			isa = PBXGroup;
+			children = (
+				F2B4334C1EEC283A00D3A476 /* BusinessClassify(分类) */,
+				F2E1A2EE1EE7F012008E42F1 /* Controller */,
+				F2E1A2F01EE7F012008E42F1 /* Model */,
+				F2E1A2F21EE7F012008E42F1 /* Others */,
+				F2E1A2F41EE7F012008E42F1 /* View */,
+			);
+			name = "business(口碑)";
+			path = business;
+			sourceTree = "<group>";
+		};
+		F2E1A2EE1EE7F012008E42F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A2EF1EE7F012008E42F1 /* ZFBBusinessViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2E1A2F01EE7F012008E42F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A2F11EE7F012008E42F1 /* ZFBBusiness.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2E1A2F21EE7F012008E42F1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A2F31EE7F012008E42F1 /* business.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2E1A2F41EE7F012008E42F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A2F51EE7F012008E42F1 /* ZFBBusinessCell.swift */,
+				F2E1A2F61EE7F012008E42F1 /* ZFBBusinessViewController.storyboard */,
+				F2E1A2F71EE7F012008E42F1 /* ZFBLevelView.swift */,
+				F2E1A2F81EE7F012008E42F1 /* ZFBPictureView.swift */,
+				F2E1A2F91EE7F012008E42F1 /* ZFBPictureView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2E1A2FA1EE7F012008E42F1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A2FB1EE7F012008E42F1 /* AlipayProject-Bridging-Header.h */,
+				F2E1A2FC1EE7F012008E42F1 /* NSAttributedString+Extension.swift */,
+				F2E1A2FD1EE7F012008E42F1 /* UIColor+Extension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F2E1A2FE1EE7F012008E42F1 /* Copy */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A2FF1EE7F012008E42F1 /* Controller */,
+				F2E1A3001EE7F012008E42F1 /* Model */,
+				F2E1A3011EE7F012008E42F1 /* Others */,
+				F2E1A3021EE7F012008E42F1 /* View */,
+			);
+			path = Copy;
+			sourceTree = "<group>";
+		};
+		F2E1A2FF1EE7F012008E42F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2E1A3001EE7F012008E42F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2E1A3011EE7F012008E42F1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2E1A3021EE7F012008E42F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2E1A3031EE7F012008E42F1 /* Friends(好友) */ = {
+			isa = PBXGroup;
+			children = (
+				F217FF2A1EF7CB5B000DA0C8 /* YWFriendChat(好友聊天) */,
+				F2D559B81EF3814000867945 /* YWFriend(朋友圈) */,
+				F2E1A3041EE7F012008E42F1 /* Controller */,
+				F2E1A3061EE7F012008E42F1 /* Model */,
+				F2E1A3071EE7F012008E42F1 /* Others */,
+				F2E1A3081EE7F012008E42F1 /* View */,
+			);
+			name = "Friends(好友)";
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		F2E1A3041EE7F012008E42F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A3051EE7F012008E42F1 /* ZFBFriendsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2E1A3061EE7F012008E42F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2D559B21EF3797F00867945 /* ZFBFriendsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2E1A3071EE7F012008E42F1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F2D559B01EF376A100867945 /* Friends.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2E1A3081EE7F012008E42F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2D559B41EF37A4800867945 /* ZFBFriendsCell.swift */,
+				F2D559B51EF37A4800867945 /* ZFBFriendsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2E1A3091EE7F012008E42F1 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0690A1F0FD60F00D6B24D /* HomeList(功能列表区) */,
+				F2E1A30A1EE7F012008E42F1 /* Controller */,
+				F2E1A30E1EE7F012008E42F1 /* Model */,
+				F2E1A30F1EE7F012008E42F1 /* Others */,
+				F2E1A3101EE7F012008E42F1 /* View */,
+			);
+			name = "Home(首页)";
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F2E1A30A1EE7F012008E42F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A30B1EE7F012008E42F1 /* forCodeScan.swift */,
+				F2E1A30C1EE7F012008E42F1 /* ZFBCodeScanningPage.swift */,
+				F2E1A30D1EE7F012008E42F1 /* ZFBHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2E1A30E1EE7F012008E42F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2E1A30F1EE7F012008E42F1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2E1A3101EE7F012008E42F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A3111EE7F012008E42F1 /* ZFBTopView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2E1A3121EE7F012008E42F1 /* Main(公共) */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A3131EE7F012008E42F1 /* Controller */,
+				F2E1A3161EE7F012008E42F1 /* Model */,
+				F2E1A3171EE7F012008E42F1 /* Others */,
+				F2E1A3181EE7F012008E42F1 /* View */,
+			);
+			name = "Main(公共)";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F2E1A3131EE7F012008E42F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A3141EE7F012008E42F1 /* ZFBMainNavigationController.swift */,
+				F2E1A3151EE7F012008E42F1 /* ZFBMainTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2E1A3161EE7F012008E42F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2E1A3171EE7F012008E42F1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2E1A3181EE7F012008E42F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2E1A3191EE7F012008E42F1 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A31A1EE7F012008E42F1 /* Controller */,
+				F2E1A31C1EE7F012008E42F1 /* Model */,
+				F2E1A31D1EE7F012008E42F1 /* Others */,
+				F2E1A31E1EE7F012008E42F1 /* View */,
+			);
+			name = "Mine(我的)";
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F2E1A31A1EE7F012008E42F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A31B1EE7F012008E42F1 /* ZFBMineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2E1A31C1EE7F012008E42F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2D5A0A81F0E7738006ADA89 /* ZFBMineOptionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2E1A31D1EE7F012008E42F1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F2D5A0A61F0E76F7006ADA89 /* MineOption.plist */,
+				F2D5A0B61F0E822C006ADA89 /* ZFBMineFlowLayout.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2E1A31E1EE7F012008E42F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2D5A0AA1F0E7B03006ADA89 /* ZFBMineHeadView.swift */,
+				F2D5A0AB1F0E7B03006ADA89 /* ZFBMineHeadView.xib */,
+				F24F39531F0F105C003755FE /* ZFBMineBalanceView.swift */,
+				F24F39541F0F105C003755FE /* ZFBMineBalanceView.xib */,
+				F24F39571F0F1073003755FE /* ZFBMineContentView.swift */,
+				F24F39581F0F1073003755FE /* ZFBMineContentView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2E1A31F1EE7F012008E42F1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A3201EE7F012008E42F1 /* Define.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2E1A3211EE7F012008E42F1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F2D068E41F0FD5CF00D6B24D /* Masonry */,
+				F2E1A3221EE7F012008E42F1 /* SGQRCode */,
+				F2E1A3291EE7F012008E42F1 /* Snapkit */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F2E1A3221EE7F012008E42F1 /* SGQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A3231EE7F012008E42F1 /* SGQRCodeTool.h */,
+				F2E1A3241EE7F012008E42F1 /* SGQRCodeTool.m */,
+				F2E1A3251EE7F012008E42F1 /* sound.caf */,
+				F2E1A3261EE7F012008E42F1 /* View */,
+			);
+			path = SGQRCode;
+			sourceTree = "<group>";
+		};
+		F2E1A3261EE7F012008E42F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A3271EE7F012008E42F1 /* SGScanningQRCodeView.h */,
+				F2E1A3281EE7F012008E42F1 /* SGScanningQRCodeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2E1A3291EE7F012008E42F1 /* Snapkit */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A32A1EE7F012008E42F1 /* Constraint.swift */,
+				F2E1A32B1EE7F012008E42F1 /* ConstraintAttributes.swift */,
+				F2E1A32C1EE7F012008E42F1 /* ConstraintDescription.swift */,
+				F2E1A32D1EE7F012008E42F1 /* ConstraintItem.swift */,
+				F2E1A32E1EE7F012008E42F1 /* ConstraintMaker.swift */,
+				F2E1A32F1EE7F012008E42F1 /* ConstraintRelation.swift */,
+				F2E1A3301EE7F012008E42F1 /* Debugging.swift */,
+				F2E1A3311EE7F012008E42F1 /* EdgeInsets.swift */,
+				F2E1A3321EE7F012008E42F1 /* LayoutConstraint.swift */,
+				F2E1A3331EE7F012008E42F1 /* SnapKit.h */,
+				F2E1A3341EE7F012008E42F1 /* SnapKit.swift */,
+				F2E1A3351EE7F012008E42F1 /* View+SnapKit.swift */,
+				F2E1A3361EE7F012008E42F1 /* ViewController+SnapKit.swift */,
+			);
+			path = Snapkit;
+			sourceTree = "<group>";
+		};
+		F2E1A3591EE7F0FC008E42F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A35C1EE7F170008E42F1 /* Config */,
+				F2E1A35B1EE7F16A008E42F1 /* Images */,
+				F2E1A35A1EE7F164008E42F1 /* Xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F2E1A35A1EE7F164008E42F1 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A2E31EE7EEB5008E42F1 /* LaunchScreen.storyboard */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		F2E1A35B1EE7F16A008E42F1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A37B1EE7F846008E42F1 /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F2E1A35C1EE7F170008E42F1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1A2E61EE7EEB5008E42F1 /* Info.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E1A2D61EE7EEB5008E42F1 /* YWAlipay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E1A2E91EE7EEB5008E42F1 /* Build configuration list for PBXNativeTarget "YWAlipay" */;
+			buildPhases = (
+				F2E1A2D31EE7EEB5008E42F1 /* Sources */,
+				F2E1A2D41EE7EEB5008E42F1 /* Frameworks */,
+				F2E1A2D51EE7EEB5008E42F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YWAlipay;
+			productName = YWAlipay;
+			productReference = F2E1A2D71EE7EEB5008E42F1 /* YWAlipay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E1A2CF1EE7EEB5008E42F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZFB;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					F2E1A2D61EE7EEB5008E42F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2E1A2D21EE7EEB5008E42F1 /* Build configuration list for PBXProject "YWAlipay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2E1A2CE1EE7EEB5008E42F1;
+			productRefGroup = F2E1A2D81EE7EEB5008E42F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E1A2D61EE7EEB5008E42F1 /* YWAlipay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E1A2D51EE7EEB5008E42F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D069271F0FD60F00D6B24D /* homeAllFunctions.plist in Resources */,
+				F2D0692A1F0FD60F00D6B24D /* YWHomeListADCell.xib in Resources */,
+				F217FF391EF7CB5B000DA0C8 /* YWFriendChat.storyboard in Resources */,
+				F2E1A33B1EE7F012008E42F1 /* ZFBBusinessViewController.storyboard in Resources */,
+				F24F395A1F0F1073003755FE /* ZFBMineContentView.xib in Resources */,
+				F2E1A3391EE7F012008E42F1 /* business.plist in Resources */,
+				F2D559C71EF3814000867945 /* YWLifeCell.xib in Resources */,
+				F2D559B11EF376A100867945 /* Friends.plist in Resources */,
+				F2D559B71EF37A4800867945 /* ZFBFriendsCell.xib in Resources */,
+				F2D5A0A71F0E76F7006ADA89 /* MineOption.plist in Resources */,
+				F2E1A2E51EE7EEB5008E42F1 /* LaunchScreen.storyboard in Resources */,
+				F2D068FF1F0FD5D000D6B24D /* Info.plist in Resources */,
+				F217FF371EF7CB5B000DA0C8 /* AutoReply.plist in Resources */,
+				F217FF381EF7CB5B000DA0C8 /* Chats.plist in Resources */,
+				F2E1A37C1EE7F846008E42F1 /* Images.xcassets in Resources */,
+				F2E1A33E1EE7F012008E42F1 /* ZFBPictureView.xib in Resources */,
+				F2D5A0AD1F0E7B03006ADA89 /* ZFBMineHeadView.xib in Resources */,
+				F2D559CC1EF39E4F00867945 /* moment.plist in Resources */,
+				F24F39561F0F105C003755FE /* ZFBMineBalanceView.xib in Resources */,
+				F2B433511EEC287A00D3A476 /* YWBussinessClassify.plist in Resources */,
+				F2D0692C1F0FD60F00D6B24D /* YWHomeListCell.xib in Resources */,
+				F2E1A34B1EE7F012008E42F1 /* sound.caf in Resources */,
+				F2D069241F0FD60F00D6B24D /* ZFBCycleCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E1A2D31EE7EEB5008E42F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E1A33D1EE7F012008E42F1 /* ZFBPictureView.swift in Sources */,
+				F2D559C81EF3814000867945 /* YWLifeHeaderVeiw.swift in Sources */,
+				F2BEB64A1EEC2B040031BC89 /* YWBusinessClassifyFlowLayout.swift in Sources */,
+				F2D559C31EF3814000867945 /* YWLifeViewController.swift in Sources */,
+				F2E1A34A1EE7F012008E42F1 /* SGQRCodeTool.m in Sources */,
+				F2D069091F0FD5D000D6B24D /* ViewController+MASAdditions.m in Sources */,
+				F2E1A3481EE7F012008E42F1 /* ZFBMineViewController.swift in Sources */,
+				F2D069251F0FD60F00D6B24D /* ZFBCycleView.m in Sources */,
+				F2C97BC41EF2767D00B37F42 /* YWBusinessClassifyView.swift in Sources */,
+				F2E1A3461EE7F012008E42F1 /* ZFBMainNavigationController.swift in Sources */,
+				F2D069071F0FD5D000D6B24D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F24F39551F0F105C003755FE /* ZFBMineBalanceView.swift in Sources */,
+				F2D069031F0FD5D000D6B24D /* MASLayoutConstraint.m in Sources */,
+				F2E1A33F1EE7F012008E42F1 /* NSAttributedString+Extension.swift in Sources */,
+				F2E1A3571EE7F012008E42F1 /* View+SnapKit.swift in Sources */,
+				F2D069221F0FD60F00D6B24D /* ZFBCycleFlowLayout.m in Sources */,
+				F2D069211F0FD60F00D6B24D /* YWHomeListController.swift in Sources */,
+				F2D5A0B71F0E822C006ADA89 /* ZFBMineFlowLayout.swift in Sources */,
+				F2E1A3401EE7F012008E42F1 /* UIColor+Extension.swift in Sources */,
+				F2E1A3371EE7F012008E42F1 /* ZFBBusinessViewController.swift in Sources */,
+				F2D069001F0FD5D000D6B24D /* MASCompositeConstraint.m in Sources */,
+				F2E1A33A1EE7F012008E42F1 /* ZFBBusinessCell.swift in Sources */,
+				F2E1A34D1EE7F012008E42F1 /* Constraint.swift in Sources */,
+				F2E1A3531EE7F012008E42F1 /* Debugging.swift in Sources */,
+				F2E1A3551EE7F012008E42F1 /* LayoutConstraint.swift in Sources */,
+				F2E1A34C1EE7F012008E42F1 /* SGScanningQRCodeView.m in Sources */,
+				F217FF351EF7CB5B000DA0C8 /* YWFriendChatController.swift in Sources */,
+				F2D069021F0FD5D000D6B24D /* MASConstraintMaker.m in Sources */,
+				F2E1A3501EE7F012008E42F1 /* ConstraintItem.swift in Sources */,
+				F2E1A3381EE7F012008E42F1 /* ZFBBusiness.swift in Sources */,
+				F24F39591F0F1073003755FE /* ZFBMineContentView.swift in Sources */,
+				F2E1A3411EE7F012008E42F1 /* ZFBFriendsViewController.swift in Sources */,
+				F2E1A3491EE7F012008E42F1 /* Define.swift in Sources */,
+				F2D069061F0FD5D000D6B24D /* NSArray+MASAdditions.m in Sources */,
+				F2E1A3421EE7F012008E42F1 /* forCodeScan.swift in Sources */,
+				F2D559C41EF3814000867945 /* YWLifeModel.swift in Sources */,
+				F2E1A34E1EE7F012008E42F1 /* ConstraintAttributes.swift in Sources */,
+				F217FF3A1EF7CB5B000DA0C8 /* YWFriendChatCell.swift in Sources */,
+				F2E1A3541EE7F012008E42F1 /* EdgeInsets.swift in Sources */,
+				F2D0692B1F0FD60F00D6B24D /* YWHomeListCell.swift in Sources */,
+				F217FF361EF7CB5B000DA0C8 /* YWFriendChatModel.swift in Sources */,
+				F2D069011F0FD5D000D6B24D /* MASConstraint.m in Sources */,
+				F2D559B31EF3797F00867945 /* ZFBFriendsModel.swift in Sources */,
+				F2E1A3451EE7F012008E42F1 /* ZFBTopView.swift in Sources */,
+				F2E1A33C1EE7F012008E42F1 /* ZFBLevelView.swift in Sources */,
+				F2D559C61EF3814000867945 /* YWLifeCell.swift in Sources */,
+				F2E1A3561EE7F012008E42F1 /* SnapKit.swift in Sources */,
+				F2D069081F0FD5D000D6B24D /* View+MASAdditions.m in Sources */,
+				F2E1A34F1EE7F012008E42F1 /* ConstraintDescription.swift in Sources */,
+				F2D069041F0FD5D000D6B24D /* MASViewAttribute.m in Sources */,
+				F2D559B61EF37A4800867945 /* ZFBFriendsCell.swift in Sources */,
+				F2E1A2DB1EE7EEB5008E42F1 /* AppDelegate.swift in Sources */,
+				F2D5A0AC1F0E7B03006ADA89 /* ZFBMineHeadView.swift in Sources */,
+				F2D069051F0FD5D000D6B24D /* MASViewConstraint.m in Sources */,
+				F2E1A3511EE7F012008E42F1 /* ConstraintMaker.swift in Sources */,
+				F2D069261F0FD60F00D6B24D /* YWHomeListModel.swift in Sources */,
+				F2E1A3581EE7F012008E42F1 /* ViewController+SnapKit.swift in Sources */,
+				F2E1A3431EE7F012008E42F1 /* ZFBCodeScanningPage.swift in Sources */,
+				F2E1A3441EE7F012008E42F1 /* ZFBHomeViewController.swift in Sources */,
+				F2E1A3521EE7F012008E42F1 /* ConstraintRelation.swift in Sources */,
+				F2D5A0A91F0E7738006ADA89 /* ZFBMineOptionModel.swift in Sources */,
+				F2D069281F0FD60F00D6B24D /* YWHomeListFlowLayout.swift in Sources */,
+				F20B60C51EECD88E00528604 /* YWBussinessClassifyCell.swift in Sources */,
+				F2D069231F0FD60F00D6B24D /* ZFBCycleCell.m in Sources */,
+				F2D069291F0FD60F00D6B24D /* YWHomeListADCell.swift in Sources */,
+				F2E1A3471EE7F012008E42F1 /* ZFBMainTabBarController.swift in Sources */,
+				F2BEB64C1EEC2DCE0031BC89 /* YWBussinessClassifyModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2E1A2E31EE7EEB5008E42F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E1A2E41EE7EEB5008E42F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2E1A2E71EE7EEB5008E42F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2E1A2E81EE7EEB5008E42F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E1A2EA1EE7EEB5008E42F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				INFOPLIST_FILE = YWAlipay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ruofeng.YWAlipay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YWAlipay/Classes/Common/AlipayProject-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		F2E1A2EB1EE7EEB5008E42F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				INFOPLIST_FILE = YWAlipay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ruofeng.YWAlipay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YWAlipay/Classes/Common/AlipayProject-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E1A2D21EE7EEB5008E42F1 /* Build configuration list for PBXProject "YWAlipay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E1A2E71EE7EEB5008E42F1 /* Debug */,
+				F2E1A2E81EE7EEB5008E42F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E1A2E91EE7EEB5008E42F1 /* Build configuration list for PBXNativeTarget "YWAlipay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E1A2EA1EE7EEB5008E42F1 /* Debug */,
+				F2E1A2EB1EE7EEB5008E42F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2E1A2CF1EE7EEB5008E42F1 /* Project object */;
+}
